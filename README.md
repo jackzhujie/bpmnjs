@@ -1,19 +1,18 @@
-# bpmn
+# bpmn.js 
+> bpmn.js是一个BPMN2.0渲染工具包和web建模器, 使得画流程图的功能在前端来完成.
+## 背景
+>研究过这个工具的朋友肯定知道，该工具的文档特别少，api介绍几乎找不到，本人因为最近工作接触到相关任务，开始研究了几天，就写一点总结，希望能帮到有需要的人。
+我们的项目后端是是用**Activiti工作流**。需要前端绘制流程图，提交xml到后端来解析，并执行工作流。
+## 项目功能
+1. bpmn.js基础知识介绍
+2. bpmn.js导入导出，回退前进等常用操作实现
+3. bpmn.js动态节点创建，删除节点，修改节点，删除线条，添加线条等操作
+4. bpmn.js修改节点颜色，线条颜色，节点属性等介绍
+5. 其他（汉化，面板创建等）
 
-## Project setup
-```
+## 启动运行发布
+```bash
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
