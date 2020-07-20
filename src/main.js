@@ -4,6 +4,12 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import { DatePicker,Upload, Icon } from 'ant-design-vue';
+Vue.use(DatePicker);
+Vue.use(Upload);
+Vue.use(Icon);
+
+
 Vue.config.productionTip = false
 
 new Vue({

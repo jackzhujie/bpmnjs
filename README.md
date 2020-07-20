@@ -16,3 +16,6 @@ npm install
 npm run serve
 npm run build
 ```
+
+## 其他说明
+> 本项目采用vue-cli4搭建，可以改造成react,angular,jq等实现，改造起来不困难，vue表现在数据渲染的不同，对bpmn的使用区别并不大。
